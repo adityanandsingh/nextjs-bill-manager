@@ -104,10 +104,6 @@ export default function AddBillPage() {
     localStorage.setItem("bills", JSON.stringify([newBill, ...existingBills]))
 
     toast({
-      title: "Bill added successfully",\
-        ...existingBills]))
-    
-    toast({
       title: "Bill added successfully",
       description: `${data.name} has been added to your bills.`,
       className: "bg-green-50 border-green-200 text-green-800",
